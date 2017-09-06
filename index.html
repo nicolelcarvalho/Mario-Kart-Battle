@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mario Kart Battle</title>
+  	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+<section class="wrapper">
+
+	<section class="characters">
+		<h3>SELECT YOUR CHARACTER:</h3>
+		<div id ="toad" class="character">
+			<img src="assets/Images/toad.jpg" alt="toad">
+			<p>TOAD: <span id="toad-health"></span></p>
+		</div>
+		<div id ="mario" class="character">
+			<img src="assets/Images/mario.jpg" alt="mario">
+			<p>MARIO: <span id="mario-health"></span></p>
+		</div>
+		<div id="luigi" class="character">
+			<img src="assets/Images/luigi.jpg" alt="luigi">
+			<p>LUIGI: <span id="luigi-health"></span></p>
+		</div>
+		<div id="bowser" class="character">
+			<img src="assets/Images/bowser.jpg" alt="bowser">
+			<p>BOWSER: <span id="bowser-health"></span></p>
+		</div>
+	</section>
+
+
+	<section class="enemies">
+		<p id="enemies">ENEMIES AVAILABLE TO ATTACK</p>
+	</section>
+
+	<section class="buttons">
+		<button id="attack">ATTACK</button>
+		<button id="restart">RESTART</button>
+	</section>
+
+	<section class="fight-section">
+
+		<section class="your-character">
+			<p id="your-character">YOUR CHARACTER</p>
+		</section>
+
+		<section class="defender">
+			<p>DEFENDER</p>
+		</section>
+
+	</section>
+
+	<section class="win-or-lose">
+		<p><span id="attack-results-1"></span></p>
+		<p><span id="attack-results-2"></span></p>
+		<p><span id="game-over"></span></p>
+	</section>
+
+</section>
+
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>

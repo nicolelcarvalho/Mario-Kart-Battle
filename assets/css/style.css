@@ -1,0 +1,104 @@
+
+body {
+	background-image: url("../Images/mario-background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	font-family: 'Slabo 27px', serif;
+}
+
+
+.wrapper {
+	margin: 0 auto;
+	width: 70%;
+}
+
+.display-none {
+	display: none;
+}
+
+
+.buttons {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 30px;
+}
+
+
+#attack, #restart {
+	height: 40px;
+	width: 15%;
+	display: inline-block;
+	cursor: pointer;
+	background-color: red;
+	color: #fff;
+}
+
+.characters, .enemies, .your-character, .defender, .win-or-lose {
+	background-color: #fff;
+	padding: 10px;
+	margin: 0 auto;
+	text-align: center;
+	opacity: .8;
+}
+
+.your-character {
+	border: 5px solid green;
+}
+
+.defender {
+	border: 5px solid black;
+}
+
+.enemies {
+	border: 5px solid red;
+	margin-top: 20px;
+}
+
+.win-or-lose {
+	margin-top: 15px;
+}
+
+.characters img, .selected-character img, .enemy img, .selected-enemy img, .defender img {
+	height: 110px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+#toad, #mario, #luigi, #bowser, .selected-character img, .selected-enemy img, .enemy, .selected-enemy {
+	height: 200px;
+	padding: 10px;
+	display: inline-block;
+	font-size: 14px;
+	text-align: center;
+	font-size: 18px;
+}
+
+#toad {
+	margin-right: 40px;
+}
+
+#mario {
+	margin-right: 40px;
+}
+
+#luigi {
+	margin-right: 60px;
+}
+
+
+.defender, .your-character {
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
+	width: 44%;
+	padding-left: 15px;
+	margin-top: 30px;
+}
+
+.defender img, .your-character img {
+	height: 180px;
+	margin: 0 auto;
+}
+
